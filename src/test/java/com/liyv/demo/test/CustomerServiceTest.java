@@ -33,7 +33,7 @@ public class CustomerServiceTest {
 
     @Test
     public void getCustomerTest() throws Exception {
-        long id = 1;
+        long id = 3;
         Customer customer = customerService.getCustomer(id);
         Assert.assertNotNull(customer);
     }
