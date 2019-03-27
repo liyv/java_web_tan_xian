@@ -1,4 +1,4 @@
-package com.liyv.demo.utils;
+package com.liyv.framework.utils;
 
 /**
  * 转型操作工具类

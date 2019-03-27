@@ -1,4 +1,4 @@
-package com.liyv.demo.utils;
+package com.liyv.framework.utils;
 
 import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.collections4.MapUtils;

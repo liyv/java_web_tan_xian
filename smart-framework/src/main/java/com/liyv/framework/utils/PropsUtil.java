@@ -1,4 +1,4 @@
-package com.liyv.demo.utils;
+package com.liyv.framework.utils;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
