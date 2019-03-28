@@ -4,7 +4,6 @@ import com.liyv.framework.annotation.Inject;
 import com.liyv.framework.utils.ArrayUtil;
 import com.liyv.framework.utils.CollectionUtil;
 import com.liyv.framework.utils.ReflectionUtil;
-import org.apache.commons.lang3.ArrayUtils;
 
 import java.lang.reflect.Field;
 import java.util.Map;

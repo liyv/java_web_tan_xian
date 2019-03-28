@@ -1,9 +1,6 @@
 package com.liyv.framework;
 
-import com.liyv.framework.helper.BeanHelper;
-import com.liyv.framework.helper.ClassHelper;
-import com.liyv.framework.helper.ControllerHelper;
-import com.liyv.framework.helper.IocHelper;
+import com.liyv.framework.helper.*;
 import com.liyv.framework.utils.ClassUtil;
 
 public final class HelperLoader {
@@ -12,6 +9,7 @@ public final class HelperLoader {
         Class<?>[] classList = {
                 ClassHelper.class,
                 BeanHelper.class,
+                AopHelper.class,
                 IocHelper.class,
                 ControllerHelper.class
         };
