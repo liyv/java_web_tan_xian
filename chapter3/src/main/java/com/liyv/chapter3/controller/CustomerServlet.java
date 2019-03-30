@@ -11,7 +11,7 @@ import java.text.SimpleDateFormat;
 public class CustomerServlet {
 
     @Action("get:/hello")
-    public View helloSmart(Object arg) {
+    public View helloSmart() {
         View view = new View("hello.jsp");
         DateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         String currentTime = format.format(System.currentTimeMillis());

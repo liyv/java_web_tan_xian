@@ -14,7 +14,7 @@ public final class HelperLoader {
                 ControllerHelper.class
         };
         for (int i = 0; i < classList.length; i++) {
-            ClassUtil.loadClass(classList[i].getName(), false);
+            ClassUtil.loadClass(classList[i].getName(), true);
         }
     }
 }
